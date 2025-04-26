@@ -1,0 +1,55 @@
+@import url("./reset.css");
+
+body
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color: silver;
+	padding: 80px;
+	color: white;
+	font-size: 40px;
+	align-content: center;
+}
+header
+{
+	background-color: rgb(112, 16, 75);
+	border-radius: 8px;
+	margin: 8px;
+	padding: 8px;
+	text-align: center;
+}
+main
+{
+	background-color: rgb(19, 209, 98);
+	border-radius: 8px;
+	margin: 8px;
+	display: grid;
+}
+article
+{
+	background-color: rgb(223, 36, 67);
+	border-radius: 8px;
+	margin: 8px;
+	padding: 16px;
+	font-size: 30px;
+	text-align: center;
+	align-content: center;
+}
+aside
+{
+	background-color: rgb(24, 85, 155);
+	border-radius: 8px;
+	text-align: center;
+	align-content: center;
+	padding: 16px;
+	margin: 8px;
+}
+footer
+{
+	background-color: rgb(226, 103, 32);
+	border-radius: 8px;
+	text-align: center;
+	align-content: center;
+	padding: 16px;
+	margin: 8px;
+}
