@@ -53,3 +53,33 @@ footer
 	padding: 16px;
 	margin: 8px;
 }
+
+
+main
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 300px;
+	flex: 1;
+}
+main > div
+{
+	display: flex;
+	flex: 1;
+}
+.content > :nth-child(3)
+{
+	background-color: rgb(66, 180, 180);
+}
+@media (min-width: 800px)
+{
+	.content
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	
+}
